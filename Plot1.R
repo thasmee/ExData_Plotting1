@@ -1,5 +1,6 @@
 ##The data file is downloaded manually and renamed as "power.txt"
 #Extracting the data into a table using fread- which is the fastest ~about 10s in 16GB to extract the complete dataset
+#Graph is included as a comment to the code
 library("data.table", lib.loc="~/R/win-library/3.1")
 DT<-fread("power.txt",header = TRUE,data.table = TRUE,stringsAsFactors=FALSE,na.strings=c("?"),colClasses=c("Date","Time","numeric","numeric","numeric","numeric","numeric","numeric","numeric"), verbose=TRUE)
 ##Extract rows for the two days
