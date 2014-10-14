@@ -1,5 +1,5 @@
 ##Plot 4
-#
+#Graph is in the comments
 source("Plot1.R")#initialize the data table and variables
 par(mfrow=c(2,2))#2 x 2 grid 
 
