@@ -5,3 +5,4 @@ plot(DateTime, as.numeric(q$Sub_metering_1), type="n",xlab=" ",ylab="Global acti
 lines(DateTime, as.numeric(q$Sub_metering_1))
 lines(DateTime, as.numeric(q$Sub_metering_2), col="red")
 lines(DateTime, as.numeric(q$Sub_metering_3), col="blue")
+legend("topright", legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty = c(30, 1),col=c("black","blue","red"))#set the legend
