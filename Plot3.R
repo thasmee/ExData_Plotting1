@@ -1,5 +1,5 @@
 ##Plot 3
-
+##The respective graph is in the comments
 source("Plot1.R") # load all the required variables and data tables
 plot(DateTime, as.numeric(q$Sub_metering_1), type="n", xlab=" ",ylab="Energy sub meetering") #set the canves and the axes
 lines(DateTime, as.numeric(q$Sub_metering_1))
